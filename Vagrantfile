@@ -13,7 +13,11 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "senglin/win-10-enterprise-vs2015community"
+<<<<<<< HEAD
   config.vm.box_version = "2.0.0.1.8"
+=======
+  config.vm.box_version = "2.0.0.8.88"
+>>>>>>> test
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
